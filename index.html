@@ -1,24 +1,60 @@
-<!-- Страница 1: Главная -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ваш Проект</title>
+    <title>Главная страница</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <h1>Добро пожаловать на сайт вашего проекта</h1>
+        <h1>Сайт Разработчика</h1>
     </header>
 
     <nav>
-        <!-- Ваш баннер или другие элементы навигации -->
+        <a href="#home">Главная</a>
+        <a href="#about">О проекте</a>
+        <a href="#download">Скачать</a>
+        <a href="#contact">Контакты</a>
     </nav>
 
     <section>
-        <p>© 2024 Ваше Имя / Компания</p>
+        <h2>Добро пожаловать на главную страницу сайта разработчика!</h2>
+        <p>Здесь вы найдете информацию о вашем проекте, его особенностях и возможностях. Используйте верхнюю панель для навигации по разделам сайта.</p>
     </section>
 </body>
 
